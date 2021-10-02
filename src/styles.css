@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 300px;
+  height: auto;
+  border: 1px solid rgba(10, 10, 10, 0.5);
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 3px 10px;
+  margin-left: 10px;
+}
+button {
+  padding: 7px 15px;
+  background: rgb(10, 20, 15);
+  color: #ffffff;
+  border: none;
+  outline: none;
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+h1::after {
+  content: "";
+  border: none;
+  width:100%;
+  display: flex;
+  outline: 1px solid rgba(0, 0, 0, 0.5);
+  margin-top: 5px;
+}
